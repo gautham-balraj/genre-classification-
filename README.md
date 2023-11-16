@@ -1,3 +1,29 @@
 # genre-classification-
 Genre classification of given audio using Tensorflow 
-Embarking on this intriguing project, our exploration unfolds within the realm of the GTZAN Genre Classification dataset, an auditory tapestry comprising 1,000 tracks, each serenading the airwaves for precisely 30 seconds. Imbued with sonic diversity, this collection encapsulates the essence of 10 distinct genres, artfully manifested through 100 tracks each.Our musical odyssey navigates through genres as diverse as the rhythmic blues, the timeless classical, the heartland melodies of country, the infectious beats of disco, the lyrical prowess of hip-hop, the improvisational wonders of jazz, the raw energy of metal, the catchy tunes of pop, the rhythmic vibes of reggae, and the electrifying spirit of rock.Within this sonorous labyrinth, the dataset unfolds its treasures across three enthralling dimensions:Genres Original: A sonic tapestry featuring 10 genres, with each genre boasting a symphony of 100 audio files. These harmonies, all precisely 30 seconds in duration, have earned the GTZAN dataset its rightful place as the MNIST equivalent in the realm of sounds.Images Original: Capturing the essence of each auditory masterpiece, this collection offers a visual representation for every audio file. This visual cue opens the door to the realm of neural networks, inviting the fusion of auditory and visual dimensions in our quest for classification excellence.CSV Files: At the heart of our exploration lie two CSV files, each a trove of invaluable insights. One file meticulously documents the mean and variance of multiple features extracted from 30-second audio files. The other file mirrors this structure, but with a unique twist – songs are elegantly divided into bite-sized 3-second audio fragments, providing a granular view into the intricacies of each composition.As we delve into the symphony of data, these diverse dimensions promise a rich tapestry of exploration and discovery, inviting us to decipher the language of music through the lens of machine learning and deep analysis.
+
+dataset source: https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification?select=Data
+
+
+This project utilizes the GTZAN Genre Classification dataset, comprising 1,000 audio tracks, each lasting 30 seconds. This dataset is renowned as the MNIST equivalent for sound, encompassing 10 distinct genres, with each genre represented by a set of 100 tracks.
+
+The dataset encompasses the following genres:
+
+Blues
+Classical
+Country
+Disco
+Hip-hop
+Jazz
+Metal
+Pop
+Reggae
+Rock
+
+
+Within the dataset, there are two primary folders:
+
+Genres original: This folder contains the 10 genres, each housing 100 audio files, all uniformly 30 seconds in length.
+
+Moreover, the dataset features two essential CSV files. One file encapsulates audio file features, with each song (30 seconds long) showcasing a mean and variance computed across various audio features. The second CSV file mirrors the structure of the first, but the songs are segmented into 3-second audio files, offering a more granular perspective on the audio characteristics.
+
+For modeling purposes, TensorFlow's artificial neural network (ANN) has been employed, harnessing the power of deep learning to analyze and classify audio data, providing a robust foundation for genre classification within this project.
